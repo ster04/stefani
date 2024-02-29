@@ -1,0 +1,51 @@
+<!DOCTYPE html><!--primeira linha de código necessária em qualquer documento, HTML ou XHTML. HTML ou XHTML -->
+<html lang="pt-br"><!--O atributo global lang ajuda a definir o idioma de um elemento--->
+<head>
+   <meta chtarset="UTF-8"><!--é uma tag meta utilizada para comunicar aos navegadores qual é o formato de codificação de caracteres utilizado naquele documento-->
+   <meta name="viewport"content="width= device-width,initial-scale=1.0">
+   <title>site acessivel de stefani</title><!--titulo-->
+   <link rel="stylesheet"href="style.css"><!--informa ao navegador para usar o arquivo CSS na renderização e apresentação do layout do documento HTML-->
+</head><!--cabeça-->
+<body><!--corpo--> 
+   <header><!-- cabeçalho -->
+        <h1>acessibilidade</h1><!--é a abreviação do inglês para Header 1, ou Cabeçalho 1-->
+   <nav><!--O Elemento HTML de Navegação-->
+      <ul><!--- Underwriters Laboratories -->
+           <li><a href="#conteudo">início</a></li><!--é usado para representar um item que faz parte de uma lista-->
+           <li><a href="#sobre"></a></li><!--assunto-->
+       <li><a href="#contato"><!--indica a relação entre diferentes páginas para os mecanismos de pesquisa-->
+       <ul>
+</a>
+</li>
+       </nav><!--navegaçao-->
+    <div class="font-size-controls"><!--estabelece o tamanho da fonte-->
+        <button id="decreaseFontSizeButton">-</button><!--criar um botão e sua fonte-->
+        <button id="decreaseFontSizeButton">+</button><!--descrever a maneira da fonte-->
+        <button id="decreaseFontSizeButton">cores vivas</button><!--a cor no botão que eu quero-->
+    </div><!--cria um bloco genérico para agrupar conteúdo-->
+  </header>
+  <main id="conteudo"><!-- serve para indicar o conteúdo principal ou a área principal do site-->
+    <h2>conteúdo principal da pagina</h2><!--titulo-->
+    <p>olá bem vindo!</p><!--descriçao do site-->
+    <p>este é um exemplo simples de site Acessivel</p></main><!--representa um paragrafo-->
+
+    <form> <!--é uma ferramenta do HTML, que permite a criação de documentos interativos no WWW-->
+        <label for="name">nome:</label><!--É usado para criar, alterar ou remover um rótulo de volume em uma unidade lógica, como uma partição de disco rígido ou um disquete.-->
+        <input type="text" id="name" name="name" required><!-- usado para criar controles interativos para formulários baseados na web para receber dados do usuário-->
+      </form>
+
+        <label for="name">email:</label><!--o conteudo que quero exibir-->
+        <input type="text" id="email" email="email" required><!--a boolean attribute. When present, it specifies that an input field must be filled out before submitting the form-->
+
+        <label for="name">texto:</label><!--texto que vai ser ditado-->
+        <input type="text" id="texto" texto="texto" required><!--text digitado-->
+        
+        <button type="submit">enviar</button><!--o botao de enviar-->
+        </form>
+  </main>
+  <footer><!--marca a área inferior, normalmente conhecida como rodapé, do conteúdo geral do documento ou do conteúdo de uma seção específica a qual ele está subordinado.-->
+    <p>2024</p>
+  </footer>
+</body>
+    <script>src="script.js"</script>
+</html>
