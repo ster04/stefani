@@ -1,0 +1,31 @@
+1 - Quais são os principais aspectos que tornam um jogo digital acessível para diferentes grupos de pessoas?
+R:enredo, o motor e a interface interativa. 
+
+2 - Como a falta de acessibilidade em jogos digitais pode impactar a experiência de jogo para pessoas com deficiências?
+R:sofrimento ético-político, reforçando sentimentos de inutilidade e prejudicando a autonomia, a liberdade e participação social,
+ 
+3 - Quais são alguns exemplos de desafios técnicos enfrentados pelos desenvolvedores na criação de jogos acessíveis?
+R:Escassez de desenvolvedores,Tempo gasto na criação de aplicativos,Incapacidade de acompanhar as inovações em ferramentas para desenvolvedores,
+Dificuldade com integrações de terceiros,Ameaças à segurança,Carga de trabalho e gerenciamento de projetos.
+
+
+4 - Quais são as diretrizes e melhores práticas atualmente em discussão pela indústria para promover a acessibilidade em jogos digitais?
+R:Garantir funcionalidades acessíveis usando teclado. 
+
+5 - De que forma as interfaces de usuário podem ser projetadas para garantir uma experiência acessível em jogos digitais?
+R:Os mecanismos de interface podem ser rudimentares, como painéis com alavancas, botões e luzes, ou mais sofisticados, como sistemas de imersão e realidade virtual.
+
+6 - Como as opções de personalização podem ser implementadas em jogos digitais para atender às necessidades de diferentes jogadores?
+R: Os esquemas de controle devem ser personalizáveis para atender às necessidades individuais dos jogadores.
+
+7 - Quais são as considerações específicas ao projetar legendas e áudio descritivo para tornar um jogo acessível para pessoas com deficiências visuais ou auditivas?
+R:Em resumo, o projeto de jogo proposto é um jogo educativo sobre a história do Brasil que utiliza áudio descrição e opções de controle por voz ou gestos para torná-lo acessível a pessoas com deficiência visual
+
+8 - Quais são os benefícios de tornar um jogo digital acessível para além do público-alvo tradicional?
+R:desenvolvimento de habilidades tais como: atenção, criatividade, memória, idiomas e trabalho em equipe
+
+9 - Como a acessibilidade em jogos digitais pode ser integrada de forma eficaz ao processo de desenvolvimento do jogo?
+R: Parcerias com desenvolvedores: Colaborar com estúdios de desenvolvimento de jogos para promover a implementação de recursos acessíveis em seus títulos, destacando as melhorias realizadas e compartilhando histórias de sucesso.
+
+10 - Quais são os próximos passos para avançar na promoção da acessibilidade em jogos digitais e garantir uma maior inclusão na indústria de jogos?
+R:. Para as deficiências visuais, é necessário levar em consideração a formatação e cores do texto, bem como a qualidade dos sons e possibilidade de descrição por áudio
