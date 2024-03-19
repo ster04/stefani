@@ -1,0 +1,63 @@
+body{/*aplica a todo o corpo da pagina*/
+    font-family: 'segoe UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;/*remove qualquer magina ao redor do corpo da pagina*/
+    padding: 0;/*remove qualquer preenchimento interno*/
+    background-color: rgb(165, 42, 118);/*cor de fundo*/
+}
+
+.container{/*caixa onde esta os formularios*/
+    max-width: 500px;/*define a largura maxima da caixa*/
+    margin: 50px auto;/*cantralizar a caixa horizontalmente*/
+    padding: 20px;/*adiciona um espaço interno ao redor do conteudo da caixa*/
+    border: 1 px slateblue;/*borda ao redor da caixa*/
+    border-radius: 10px;/*arredonda os cantos da caixa*/
+    background-color: black;/*define a cor de fundo da caixa*/
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);/*adiciona uma sombra a caixa*/
+}
+
+label{/*rotulo da pagina*/
+  display:block ;/*exibe como blocos empilhados verticalmente*/
+  margin-bottom: 10px;/*adiciona um espaço abaixo do rotulo*/
+  color: brown;/*define a cor do texto*/
+}
+
+input[type="text"],/*campo de entrada*/
+input[type="email"],/*campo de entrada*/
+input[type="tel"],/*campo de entrada*/
+input[type="date"],/*campo de entrada*/
+select{
+    width: calc(100%-16px);/*define a largura dos campos*/
+    padding: 10px;/* adiciona um prenchimento interno dentro de cada campo*/
+    margin-bottom: 20px;/*adiciona um espaço abaixo de cada campo */
+    border: 1 px solid #ccc;/*adiciona uma borda solida ao redor dos campos */
+    border-radius: 6px;/* arrendonda os cantos*/
+    background-color: aqua;/* cor de fundo dos campos*/
+    box-sizing: border-box;/*garante que preenchimento e a borda sejam incluidos 
+    na largura total do campo de entrada*/
+    color: aquamarine;/*define a cor do texto*/
+}
+
+input[type="submit"]{/*botao de envio*/
+    width: 100%;/*largura do botao*/
+    background-color: blue;/*cor de fundo do botao*/
+    color: antiquewhite;/*define a cor de texto do botao*/
+    padding: 12px;/*adiciona um preenchimento interno*/
+    border: none;/*remove a borda*/
+    border-radius: 6px;/*arredonda os cantos*/
+    cursor: pointer;/*altera o curso do mouse para uma maozinha
+    quando passa sobre o botao*/
+    transition:backgroud-color 0.3s;/*adiciona uma transiçao suave para a mudança
+    de cor de fundo quando o mouse passa sobre o botao*/
+}
+
+input[type="submit"]:houver{/*quando o mouse esta sobre o botao*/
+    background-color: beige;/*muda a cor do botao para um tom mais
+    escuro ou mais claro*/
+
+}
+
+.error{/*se aplica a mensagem de erro exibida nos campos de entrada*/
+    color: blueviolet;/*define a cor da mensagem de erro*/
+    font-size: 12px;/*define tamnho da fonte*/
+      margin-top:5px ;/*adiciona um espaço acima de cada mensagem de erro*/
+}
